@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hangman</title>
+</head>
+<body>
+
+    <h1 id="welcome">Welcome to hangman!</h1>
+
+    <div id="info">
+        <h2 class="flex-item" id="attempts-made"></h2>
+        <h2 class="flex-item" id="attempts-left"></h2>
+        <h2 class="flex-item" id="best-score">Best Score: </h2>
+        <h2 class="flex-item" id="let-used">Letters used: </h2><br>
+    </div>
+
+    <h2 id="winOrLose"></h2>
+
+    <h2 id="reset-label"></h2>
+
+    <div id="puzzle"></div>
+
+    <div id="input-container">
+        <input type="text" id="letter-input" placeholder="Enter a guess">
+        <button id="submit" class="inline">Submit</button>
+        <button id="restart" class="inline">Restart</button>
+        <button id="resetBS" class="inline">Reset Best Score</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

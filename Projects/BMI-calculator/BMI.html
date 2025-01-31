@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BMI-styles.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <h1 class="text" id="main-title">Welcome!</h1>
+    <h3 class="text" id="subtitle">Curious about your BMI? You've come to the right place!</h3>
+    
+    <div id="description-container">
+        <h5 id="description-container-title" class="text">BMI Categories:</h5>
+        <ul id="description" class="list-items">
+            <li>Less than 18.5 = <span class="orange">Underweight</span></li>
+            <li>Between 18.5 - 24.9 = <span class="green">Normal weight</span></li>
+            <li>25 - 29.9 = <span class="orange">Overweight</span></li>
+            <li>BMI of 30 or greater = <span class="red">Obesity</span></li>
+        </ul>
+    </div>  
+
+    <div id="metric-imperial-container">
+        <div id="imperial" class="calculator">
+
+            <h1 class="text calculator-title">Imperial</h1>
+
+            <div id="info-container">
+
+                <h4 class="result" id="imp">BMI:</h4>
+
+                <h6  class="text height enter">Enter height:</h6>
+
+                <h6 class="text enter align">Feet:</h6>
+                <input type="number" id="feet" class="align text-input">
+                
+                <h6 class="text enter align squeeze">Inches:</h6>
+                <input type="number" id="inches" class="align text-input" >
+                
+                <h6 class="text enter align">Enter weight (pounds):</h6>
+                <input type="number" id="weight" class="align text-input">
+
+                <button class="btn" id="calc-bmi-imperial">Calculate</button>
+            </div>
+        </div>  
+
+        <div id="metric" class="calculator">
+            
+            <h1 class="text calculator-title">Metric</h1>
+
+            <div id="info-container">
+
+                <h4 class="result" id="met">BMI:</h4>
+
+                <h6  class="text height enter squeeze">Enter height:</h6>
+
+                <h6 class="text enter align squeeze">Centimeters:</h6>
+                <input type="number" id="centimeters" class="align text-input squeeze">
+                               
+                <h6 class="text enter align">Enter weight (kilograms):</h6>
+                <input type="number" id="kilograms" class="align text-input">
+
+                <button class="btn" id="calc-bmi-metric">Calculate</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="BMI.js"></script>      
+</body>
+</html>

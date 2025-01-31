@@ -1,0 +1,122 @@
+html{
+    background-color: black;
+}
+
+.text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: yellow;
+}
+
+#main-title{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 50px;
+}
+
+#subtitle{
+    text-align: center;
+    font-size: x-large;
+}
+
+#description-container{
+    width: 25%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#description-container-title{
+    padding-left: 5%;
+    margin-bottom: -10px;
+    font-size: x-large;
+}
+
+#description{
+  font-size: large;
+}
+
+.list-items{
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: lime;
+}
+
+.orange{
+    color: orangered;
+}
+
+#metric-imperial-container{
+    background-color: yellow;
+    width: 75%;
+    height: 550px;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 10%;
+}
+
+.calculator{
+    background-color: black;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 350px;
+    height: 450px;
+    border-radius: 20%;
+}
+
+.calculator-title{
+    text-align: center;
+    text-shadow: 2px 2px blue;
+}
+
+#info-container{
+    width: 80%;
+    margin: auto;
+}
+
+.enter{
+    font-size: 15px;
+}
+
+.text-input{
+    width: 50px;
+}
+
+.align{
+    display: inline-block;
+    margin-right: 5%;
+}
+
+.height{
+  margin-bottom: -1px;
+}
+
+.result{
+    margin-top: 60px;
+    margin-left: 50px;  
+    color: white;  
+}
+
+.btn{
+    background-color: yellow;
+    border-radius: 25%;
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 0px 5px grey;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.pressed{
+    background-color: gray;
+}
